@@ -22,8 +22,35 @@ gmglobal.o:
 gmautodemo.o:
 	.text       start:0x8000E1D8 end:0x80010BBC
 
-text_80010BBC.o:
-	.text       start:0x80010BBC end:0x80060ED0
+gmracecommon.o:
+	.text       start:0x80010BBC end:0x80013B08
+
+gmracenormal.o:
+	.text       start:0x80013B08 end:0x8004788C
+
+gmdialogue.o:
+	.text       start:0x8004788C end:0x8004877C
+
+gmdialoguesub.o:
+	.text       start:0x8004877C end:0x80048F68
+
+gmdialoguestatus.o:
+	.text       start:0x80048F68 end:0x80049198
+
+gmspecialmovie.o:
+	.text       start:0x80049198 end:0x80049C20
+
+gmclearchecker.o:
+	.text       start:0x80049C20 end:0x8004F5E0
+
+gmviconfigure.o:
+	.text       start:0x8004F5E0 end:0x8004F85C
+
+gmlanmenu.o:
+	.text       start:0x8004F85C end:0x80054904
+
+lbairride.o:
+	.text       start:0x80054904 end:0x80060ED0
 
 text_80060ED0.o:
 	.text       start:0x80060ED0 end:0x800AD79C
